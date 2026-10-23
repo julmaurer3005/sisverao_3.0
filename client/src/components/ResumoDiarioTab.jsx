@@ -2,8 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import CardResumoGeral from './CardResumoGeral';
 import CardResumoAIDia from './CardResumoAIDia';
 import CardResumoAIAcumulado from './CardResumoAIAcumulado';
+import CardResumoDivulgacao from './CardResumoDivulgacao';
 import GerenciarPostosModal from './GerenciarPostosModal';
-import { Calendar, FileText, Waves, Award, SlidersHorizontal, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Calendar, FileText, Waves, Award, SlidersHorizontal, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 
 export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
   const [modeloAtivo, setModeloAtivo] = useState('geral'); // 'geral' | 'ai_dia' | 'ai_acum'
@@ -272,7 +273,7 @@ export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
             className={`btn-secondary ${modeloAtivo === 'ai_acum' ? 'active' : ''}`}
             style={{
               flex: 1,
-              minWidth: '220px',
+              minWidth: '200px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -286,6 +287,29 @@ export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
           >
             <Award size={15} />
             3. Águas Internas (Acumulado)
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setModeloAtivo('divulgacao')}
+            className={`btn-secondary ${modeloAtivo === 'divulgacao' ? 'active' : ''}`}
+            style={{
+              flex: 1,
+              minWidth: '220px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '0.45rem',
+              fontSize: '0.82rem',
+              padding: '0.5rem',
+              background: modeloAtivo === 'divulgacao' ? 'rgba(239, 68, 68, 0.2)' : 'var(--bg-tertiary)',
+              borderColor: modeloAtivo === 'divulgacao' ? '#ef4444' : 'var(--border-color)',
+              color: modeloAtivo === 'divulgacao' ? '#fca5a5' : 'white',
+              boxShadow: modeloAtivo === 'divulgacao' ? '0 0 12px rgba(239, 68, 68, 0.3)' : 'none'
+            }}
+          >
+            <Sparkles size={15} color="#ef4444" />
+            4. Card Redes Sociais (10ª Op)
           </button>
         </div>
       </div>
@@ -306,6 +330,7 @@ export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
           {modeloAtivo === 'geral' && <CardResumoGeral data={data} />}
           {modeloAtivo === 'ai_dia' && <CardResumoAIDia data={data} />}
           {modeloAtivo === 'ai_acum' && <CardResumoAIAcumulado data={data} />}
+          {modeloAtivo === 'divulgacao' && <CardResumoDivulgacao data={data} />}
         </div>
       )}
 
