@@ -5,6 +5,7 @@ import CardResumoAIAcumulado from './CardResumoAIAcumulado';
 import CardResumoDivulgacao from './CardResumoDivulgacao';
 import GerenciarPostosModal from './GerenciarPostosModal';
 import { Calendar, FileText, Waves, Award, SlidersHorizontal, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import fallbackResumoDiario from '../data/fallbackResumoDiario.json';
 
 export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
   const [modeloAtivo, setModeloAtivo] = useState('geral'); // 'geral' | 'ai_dia' | 'ai_acum'
@@ -58,32 +59,22 @@ export default function ResumoDiarioTab({ dataRef, onDataChange, temporada }) {
 
     fetch(`/api/resumo-diario-completo?${params.toString()}`)
       .then(async (r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const contentType = r.headers.get('content-type') || '';
+        if (!r.ok || !contentType.includes('application/json')) {
+          throw new Error(`API offline ou retornou HTML (status ${r.status})`);
+        }
         return r.json();
       })
       .then(res => {
-        if (res && res.card1_geral) {
+        if (res && res.card1_geral && res.card1_geral.dia && res.card1_geral.dia.totais) {
           setData(res);
+        } else {
+          throw new Error('Formato de dados incompleto');
         }
       })
       .catch((err) => {
-        console.warn('API de resumo diário indisponível (modo estático/fallback Vercel):', err);
-        setData(prev => prev || {
-          operacao_numero: 10,
-          operacao_nome: '10ª Operação Verão',
-          ano_operacao: '2026/2027',
-          data_referencia: dataRef || '2026-02-22',
-          card1_geral: {
-            dia: {
-              norte: [], sul: [],
-              totais: { geral: { salvamentos: 14, prevencoes: 12480, pessoas_encontradas: 28, agua_viva: 2450, obitos: 0 } }
-            },
-            acumulado: {
-              norte: [], sul: [],
-              totais: { geral: { salvamentos: 854, prevencoes: 507826, pessoas_encontradas: 1206, agua_viva: 125370, obitos: 48 } }
-            }
-          }
-        });
+        console.warn('API de resumo diário offline (utilizando dados oficiais de contingência):', err);
+        setData(fallbackResumoDiario);
       })
       .finally(() => setLoading(false));
   };

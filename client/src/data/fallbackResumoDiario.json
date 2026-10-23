@@ -1,0 +1,1171 @@
+{
+  "operacao_numero": 9,
+  "operacao_nome": "9ª Operação Verão 2025/2026",
+  "ano_operacao": "2025/2026",
+  "data_referencia": "2026-02-22",
+  "card1_geral": {
+    "dia": {
+      "norte": [
+        {
+          "balneario": "TORRES",
+          "salvamentos": 5,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "ARROIO DO SAL",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "CAPÃO NOVO",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "CAPÃO DA CANOA",
+          "salvamentos": 4,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "XANGRI-LÁ",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "IMBÉ NORTE",
+          "salvamentos": 1,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "IMBÉ SUL",
+          "salvamentos": 2,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "TRAMANDAÍ",
+          "salvamentos": 3,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "NOVA TRAMANDAÍ",
+          "salvamentos": 1,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "CIDREIRA",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "BALNEÁRIO PINHAL",
+          "salvamentos": 1,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "QUINTÃO",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        }
+      ],
+      "sul": [
+        {
+          "balneario": "TAVARES",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "SÃO JOSÉ DO NORTE",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "CASSINO",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "HERMENEGILDO",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        {
+          "balneario": "BARRA DO CHUÍ",
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        }
+      ],
+      "totais": {
+        "norte": {
+          "salvamentos": 17,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        "sul": {
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        "ai": {
+          "salvamentos": 0,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        "geral": {
+          "salvamentos": 17,
+          "prevencoes": 0,
+          "pessoas_encontradas": 0,
+          "agua_viva": 0,
+          "obitos": 0
+        }
+      }
+    },
+    "acumulado": {
+      "norte": [
+        {
+          "balneario": "TORRES",
+          "salvamentos": 172,
+          "prevencoes": 51458,
+          "pessoas_encontradas": 284,
+          "agua_viva": 19393,
+          "obitos": 1
+        },
+        {
+          "balneario": "ARROIO DO SAL",
+          "salvamentos": 52,
+          "prevencoes": 23526,
+          "pessoas_encontradas": 34,
+          "agua_viva": 11213,
+          "obitos": 0
+        },
+        {
+          "balneario": "CAPÃO NOVO",
+          "salvamentos": 33,
+          "prevencoes": 32556,
+          "pessoas_encontradas": 29,
+          "agua_viva": 9091,
+          "obitos": 0
+        },
+        {
+          "balneario": "CAPÃO DA CANOA",
+          "salvamentos": 122,
+          "prevencoes": 69188,
+          "pessoas_encontradas": 205,
+          "agua_viva": 15344,
+          "obitos": 0
+        },
+        {
+          "balneario": "XANGRI-LÁ",
+          "salvamentos": 48,
+          "prevencoes": 18921,
+          "pessoas_encontradas": 51,
+          "agua_viva": 8558,
+          "obitos": 0
+        },
+        {
+          "balneario": "IMBÉ NORTE",
+          "salvamentos": 21,
+          "prevencoes": 19960,
+          "pessoas_encontradas": 42,
+          "agua_viva": 8025,
+          "obitos": 0
+        },
+        {
+          "balneario": "IMBÉ SUL",
+          "salvamentos": 45,
+          "prevencoes": 19493,
+          "pessoas_encontradas": 70,
+          "agua_viva": 6152,
+          "obitos": 0
+        },
+        {
+          "balneario": "TRAMANDAÍ",
+          "salvamentos": 73,
+          "prevencoes": 15787,
+          "pessoas_encontradas": 94,
+          "agua_viva": 8276,
+          "obitos": 0
+        },
+        {
+          "balneario": "NOVA TRAMANDAÍ",
+          "salvamentos": 58,
+          "prevencoes": 13209,
+          "pessoas_encontradas": 38,
+          "agua_viva": 4784,
+          "obitos": 0
+        },
+        {
+          "balneario": "CIDREIRA",
+          "salvamentos": 31,
+          "prevencoes": 49952,
+          "pessoas_encontradas": 111,
+          "agua_viva": 6829,
+          "obitos": 0
+        },
+        {
+          "balneario": "BALNEÁRIO PINHAL",
+          "salvamentos": 44,
+          "prevencoes": 31462,
+          "pessoas_encontradas": 31,
+          "agua_viva": 5694,
+          "obitos": 0
+        },
+        {
+          "balneario": "QUINTÃO",
+          "salvamentos": 60,
+          "prevencoes": 32792,
+          "pessoas_encontradas": 77,
+          "agua_viva": 5025,
+          "obitos": 0
+        }
+      ],
+      "sul": [
+        {
+          "balneario": "TAVARES",
+          "salvamentos": 2,
+          "prevencoes": 1274,
+          "pessoas_encontradas": 0,
+          "agua_viva": 327,
+          "obitos": 0
+        },
+        {
+          "balneario": "SÃO JOSÉ DO NORTE",
+          "salvamentos": 4,
+          "prevencoes": 4148,
+          "pessoas_encontradas": 0,
+          "agua_viva": 1332,
+          "obitos": 0
+        },
+        {
+          "balneario": "CASSINO",
+          "salvamentos": 17,
+          "prevencoes": 50767,
+          "pessoas_encontradas": 78,
+          "agua_viva": 14066,
+          "obitos": 0
+        },
+        {
+          "balneario": "HERMENEGILDO",
+          "salvamentos": 23,
+          "prevencoes": 7531,
+          "pessoas_encontradas": 8,
+          "agua_viva": 485,
+          "obitos": 0
+        },
+        {
+          "balneario": "BARRA DO CHUÍ",
+          "salvamentos": 9,
+          "prevencoes": 7505,
+          "pessoas_encontradas": 11,
+          "agua_viva": 128,
+          "obitos": 0
+        }
+      ],
+      "totais": {
+        "norte": {
+          "salvamentos": 759,
+          "prevencoes": 378304,
+          "pessoas_encontradas": 1066,
+          "agua_viva": 108384,
+          "obitos": 1
+        },
+        "sul": {
+          "salvamentos": 55,
+          "prevencoes": 71225,
+          "pessoas_encontradas": 97,
+          "agua_viva": 16338,
+          "obitos": 0
+        },
+        "ai": {
+          "salvamentos": 39,
+          "prevencoes": 51242,
+          "pessoas_encontradas": 27,
+          "agua_viva": 0,
+          "obitos": 0
+        },
+        "geral": {
+          "salvamentos": 853,
+          "prevencoes": 500771,
+          "pessoas_encontradas": 1190,
+          "agua_viva": 124722,
+          "obitos": 1
+        }
+      }
+    },
+    "comparativo": {
+      "operacoes": [
+        {
+          "numero_operacao": 6,
+          "salvamentos_total": 696,
+          "prevencoes_total": 278353,
+          "agua_viva_total": 86336,
+          "pessoas_encontradas_total": 860,
+          "obitos_mar_total": 6,
+          "obitos_ai_total": 2
+        },
+        {
+          "numero_operacao": 7,
+          "salvamentos_total": 816,
+          "prevencoes_total": 340988,
+          "agua_viva_total": 79870,
+          "pessoas_encontradas_total": 922,
+          "obitos_mar_total": 5,
+          "obitos_ai_total": 3
+        },
+        {
+          "numero_operacao": 8,
+          "salvamentos_total": 838,
+          "prevencoes_total": 435652,
+          "agua_viva_total": 93271,
+          "pessoas_encontradas_total": 1188,
+          "obitos_mar_total": 1,
+          "obitos_ai_total": 2
+        },
+        {
+          "numero_operacao": 9,
+          "salvamentos_total": 854,
+          "prevencoes_total": 507826,
+          "agua_viva_total": 125370,
+          "pessoas_encontradas_total": 1206,
+          "obitos_mar_total": 1,
+          "obitos_ai_total": 0
+        }
+      ],
+      "norte": {
+        "salvamentos": [
+          548,
+          694,
+          708,
+          759
+        ],
+        "obitos": [
+          6,
+          5,
+          1,
+          1
+        ],
+        "prevencoes": [
+          "187.546",
+          "250.562",
+          "308.728",
+          "378.304"
+        ],
+        "pessoas_encontradas": [
+          764,
+          848,
+          1039,
+          1066
+        ],
+        "agua_viva": [
+          "78.706",
+          "69.108",
+          "86.121",
+          "108.384"
+        ]
+      },
+      "sul": {
+        "salvamentos": [
+          93,
+          27,
+          46,
+          55
+        ],
+        "obitos": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "prevencoes": [
+          "45.628",
+          "37.366",
+          "60.192",
+          "71.225"
+        ],
+        "pessoas_encontradas": [
+          47,
+          31,
+          79,
+          97
+        ],
+        "agua_viva": [
+          "7.426",
+          "10.502",
+          "6.935",
+          "16.338"
+        ]
+      },
+      "ai": {
+        "salvamentos": [
+          47,
+          77,
+          68,
+          39
+        ],
+        "obitos": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "prevencoes": [
+          "34.008",
+          "47.898",
+          "55.921",
+          "51.242"
+        ],
+        "pessoas_encontradas": [
+          25,
+          30,
+          51,
+          27
+        ]
+      }
+    },
+    "obitos": {
+      "mar": 6,
+      "aguas_internas": 39,
+      "mes_dezembro": 1,
+      "mes_janeiro": 2,
+      "mes_fevereiro": 9
+    }
+  },
+  "card2_ai_acumulado": {
+    "itens": [
+      {
+        "id": 80,
+        "bbm": "1º BBM",
+        "municipio": "PORTO ALEGRE",
+        "balneario": "BELÉM NOVO",
+        "salvamentos": 0,
+        "prevencoes": 470,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 81,
+        "bbm": "1º BBM",
+        "municipio": "PORTO ALEGRE",
+        "balneario": "LAMI",
+        "salvamentos": 0,
+        "prevencoes": 748,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 82,
+        "bbm": "3º BBM",
+        "municipio": "PELOTAS",
+        "balneario": "LARANJAL",
+        "salvamentos": 4,
+        "prevencoes": 4302,
+        "pessoas_encontradas": 11,
+        "obitos": 0
+      },
+      {
+        "id": 84,
+        "bbm": "3º BBM",
+        "municipio": "RIO GRANDE",
+        "balneario": "PRAIA DA CAPILHA",
+        "salvamentos": 3,
+        "prevencoes": 536,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 83,
+        "bbm": "3º BBM",
+        "municipio": "SÃO LOURENÇO DO SUL",
+        "balneario": "SÃO LOURENÇO DO SUL",
+        "salvamentos": 3,
+        "prevencoes": 5025,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 21,
+        "bbm": "4º BBM",
+        "municipio": "CACHOEIRA DO SUL",
+        "balneario": "PRAIA NOVA",
+        "salvamentos": 5,
+        "prevencoes": 765,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 87,
+        "bbm": "4º BBM",
+        "municipio": "LAVRAS DO SUL",
+        "balneario": "PAREDÃO",
+        "salvamentos": 0,
+        "prevencoes": 448,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 86,
+        "bbm": "4º BBM",
+        "municipio": "RESTINGA SECA",
+        "balneario": "PASSO DAS TUNAS",
+        "salvamentos": 2,
+        "prevencoes": 1147,
+        "pessoas_encontradas": 1,
+        "obitos": 0
+      },
+      {
+        "id": 148,
+        "bbm": "4º BBM",
+        "municipio": "SÃO SEPÉ",
+        "balneario": "PASSO DO VERDE",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 89,
+        "bbm": "4º BBM",
+        "municipio": "TOROPI",
+        "balneario": "PASSO DO ANGICO",
+        "salvamentos": 0,
+        "prevencoes": 931,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 146,
+        "bbm": "5º BBM",
+        "municipio": "TAQUARA",
+        "balneario": "JOÃO MARTINS NUNES",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 1,
+        "bbm": "6º BBM",
+        "municipio": "ARAMBARÉ",
+        "balneario": "CARAMURU",
+        "salvamentos": 1,
+        "prevencoes": 1696,
+        "pessoas_encontradas": 1,
+        "obitos": 0
+      },
+      {
+        "id": 10,
+        "bbm": "6º BBM",
+        "municipio": "ARAMBARÉ",
+        "balneario": "CENTRAL (CALÇADÃO)",
+        "salvamentos": 6,
+        "prevencoes": 2895,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 101,
+        "bbm": "6º BBM",
+        "municipio": "CRISTAL",
+        "balneario": "CRISTAL",
+        "salvamentos": 0,
+        "prevencoes": 205,
+        "pessoas_encontradas": 1,
+        "obitos": 0
+      },
+      {
+        "id": 22,
+        "bbm": "6º BBM",
+        "municipio": "RIO PARDO",
+        "balneario": "INGAZEIROS (RIO JACUÍ)",
+        "salvamentos": 1,
+        "prevencoes": 249,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 97,
+        "bbm": "6º BBM",
+        "municipio": "RIO PARDO",
+        "balneario": "PORTO FERREIRA",
+        "salvamentos": 0,
+        "prevencoes": 233,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 103,
+        "bbm": "6º BBM",
+        "municipio": "SÃO JERONIMO",
+        "balneario": "PRAIA DO ENCONTRO",
+        "salvamentos": 2,
+        "prevencoes": 311,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 104,
+        "bbm": "6º BBM",
+        "municipio": "TAPES",
+        "balneario": "PINWEST",
+        "salvamentos": 0,
+        "prevencoes": 363,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 24,
+        "bbm": "6º BBM",
+        "municipio": "VALE VERDE",
+        "balneario": "MONTE ALEGRE",
+        "salvamentos": 1,
+        "prevencoes": 486,
+        "pessoas_encontradas": 1,
+        "obitos": 0
+      },
+      {
+        "id": 19,
+        "bbm": "7º BBM",
+        "municipio": "SERAFINA CORRÊA",
+        "balneario": "CAMPING CARREIRO",
+        "salvamentos": 3,
+        "prevencoes": 525,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 106,
+        "bbm": "8º BBM",
+        "municipio": "VIAMÃO",
+        "balneario": "ITAPUÃ",
+        "salvamentos": 0,
+        "prevencoes": 518,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 107,
+        "bbm": "9º BBM",
+        "municipio": "BALNEÁRIO PINHAL",
+        "balneario": "LAGOA RONDINHA",
+        "salvamentos": 0,
+        "prevencoes": 9646,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 108,
+        "bbm": "9º BBM",
+        "municipio": "CAPÃO DA CANOA",
+        "balneario": "PARQUE NAÚTICO",
+        "salvamentos": 0,
+        "prevencoes": 2073,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 109,
+        "bbm": "9º BBM",
+        "municipio": "CIDREIRA",
+        "balneario": "LAGOA FORTALEZA",
+        "salvamentos": 0,
+        "prevencoes": 3111,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 111,
+        "bbm": "9º BBM",
+        "municipio": "MOSTARDAS",
+        "balneario": "BACUPARI",
+        "salvamentos": 3,
+        "prevencoes": 9226,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 110,
+        "bbm": "9º BBM",
+        "municipio": "OSÓRIO",
+        "balneario": "LAGOA PEIXOTO",
+        "salvamentos": 0,
+        "prevencoes": 864,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 112,
+        "bbm": "9º BBM",
+        "municipio": "SANTO ANTÔNIO DA PATRULHA",
+        "balneario": "LAGOA DOS BARROS",
+        "salvamentos": 0,
+        "prevencoes": 919,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 114,
+        "bbm": "10º BBM",
+        "municipio": "DOM PEDRITO",
+        "balneario": "RIO SANTA MARIA",
+        "salvamentos": 0,
+        "prevencoes": 435,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 113,
+        "bbm": "10º BBM",
+        "municipio": "ROSÁRIO DO SUL",
+        "balneario": "AREIAS BRANCAS",
+        "salvamentos": 0,
+        "prevencoes": 949,
+        "pessoas_encontradas": 2,
+        "obitos": 0
+      },
+      {
+        "id": 116,
+        "bbm": "11º BBM",
+        "municipio": "ROQUE GONZALES",
+        "balneario": "CAMPING PÚBLICO",
+        "salvamentos": 0,
+        "prevencoes": 992,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 27,
+        "bbm": "12º BBM",
+        "municipio": "SALTO DO JACUÍ",
+        "balneario": "MAIA FILHO",
+        "salvamentos": 3,
+        "prevencoes": 399,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 120,
+        "bbm": "13º BBM",
+        "municipio": "MANOEL VIANA",
+        "balneario": "RAINHA DO SOL",
+        "salvamentos": 0,
+        "prevencoes": 571,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 28,
+        "bbm": "13º BBM",
+        "municipio": "SÃO FRANCISCO DE ASSIS",
+        "balneario": "JACAQUÁ",
+        "salvamentos": 2,
+        "prevencoes": 204,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      }
+    ],
+    "totais": {
+      "salvamentos": 39,
+      "prevencoes": 51242,
+      "pessoas_encontradas": 27,
+      "agua_viva": 0,
+      "obitos": 0
+    }
+  },
+  "card3_ai_dia": {
+    "itens": [
+      {
+        "id": 80,
+        "bbm": "1º BBM",
+        "municipio": "PORTO ALEGRE",
+        "balneario": "BELÉM NOVO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 81,
+        "bbm": "1º BBM",
+        "municipio": "PORTO ALEGRE",
+        "balneario": "LAMI",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 82,
+        "bbm": "3º BBM",
+        "municipio": "PELOTAS",
+        "balneario": "LARANJAL",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 84,
+        "bbm": "3º BBM",
+        "municipio": "RIO GRANDE",
+        "balneario": "PRAIA DA CAPILHA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 83,
+        "bbm": "3º BBM",
+        "municipio": "SÃO LOURENÇO DO SUL",
+        "balneario": "SÃO LOURENÇO DO SUL",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 21,
+        "bbm": "4º BBM",
+        "municipio": "CACHOEIRA DO SUL",
+        "balneario": "PRAIA NOVA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 87,
+        "bbm": "4º BBM",
+        "municipio": "LAVRAS DO SUL",
+        "balneario": "PAREDÃO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 86,
+        "bbm": "4º BBM",
+        "municipio": "RESTINGA SECA",
+        "balneario": "PASSO DAS TUNAS",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 148,
+        "bbm": "4º BBM",
+        "municipio": "SÃO SEPÉ",
+        "balneario": "PASSO DO VERDE",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 89,
+        "bbm": "4º BBM",
+        "municipio": "TOROPI",
+        "balneario": "PASSO DO ANGICO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 146,
+        "bbm": "5º BBM",
+        "municipio": "TAQUARA",
+        "balneario": "JOÃO MARTINS NUNES",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 1,
+        "bbm": "6º BBM",
+        "municipio": "ARAMBARÉ",
+        "balneario": "CARAMURU",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 10,
+        "bbm": "6º BBM",
+        "municipio": "ARAMBARÉ",
+        "balneario": "CENTRAL (CALÇADÃO)",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 101,
+        "bbm": "6º BBM",
+        "municipio": "CRISTAL",
+        "balneario": "CRISTAL",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 22,
+        "bbm": "6º BBM",
+        "municipio": "RIO PARDO",
+        "balneario": "INGAZEIROS (RIO JACUÍ)",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 97,
+        "bbm": "6º BBM",
+        "municipio": "RIO PARDO",
+        "balneario": "PORTO FERREIRA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 103,
+        "bbm": "6º BBM",
+        "municipio": "SÃO JERONIMO",
+        "balneario": "PRAIA DO ENCONTRO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 104,
+        "bbm": "6º BBM",
+        "municipio": "TAPES",
+        "balneario": "PINWEST",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 24,
+        "bbm": "6º BBM",
+        "municipio": "VALE VERDE",
+        "balneario": "MONTE ALEGRE",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 19,
+        "bbm": "7º BBM",
+        "municipio": "SERAFINA CORRÊA",
+        "balneario": "CAMPING CARREIRO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 106,
+        "bbm": "8º BBM",
+        "municipio": "VIAMÃO",
+        "balneario": "ITAPUÃ",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 107,
+        "bbm": "9º BBM",
+        "municipio": "BALNEÁRIO PINHAL",
+        "balneario": "LAGOA RONDINHA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 108,
+        "bbm": "9º BBM",
+        "municipio": "CAPÃO DA CANOA",
+        "balneario": "PARQUE NAÚTICO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 109,
+        "bbm": "9º BBM",
+        "municipio": "CIDREIRA",
+        "balneario": "LAGOA FORTALEZA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 111,
+        "bbm": "9º BBM",
+        "municipio": "MOSTARDAS",
+        "balneario": "BACUPARI",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 110,
+        "bbm": "9º BBM",
+        "municipio": "OSÓRIO",
+        "balneario": "LAGOA PEIXOTO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 112,
+        "bbm": "9º BBM",
+        "municipio": "SANTO ANTÔNIO DA PATRULHA",
+        "balneario": "LAGOA DOS BARROS",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 114,
+        "bbm": "10º BBM",
+        "municipio": "DOM PEDRITO",
+        "balneario": "RIO SANTA MARIA",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 113,
+        "bbm": "10º BBM",
+        "municipio": "ROSÁRIO DO SUL",
+        "balneario": "AREIAS BRANCAS",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 116,
+        "bbm": "11º BBM",
+        "municipio": "ROQUE GONZALES",
+        "balneario": "CAMPING PÚBLICO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 27,
+        "bbm": "12º BBM",
+        "municipio": "SALTO DO JACUÍ",
+        "balneario": "MAIA FILHO",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 120,
+        "bbm": "13º BBM",
+        "municipio": "MANOEL VIANA",
+        "balneario": "RAINHA DO SOL",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      },
+      {
+        "id": 28,
+        "bbm": "13º BBM",
+        "municipio": "SÃO FRANCISCO DE ASSIS",
+        "balneario": "JACAQUÁ",
+        "salvamentos": 0,
+        "prevencoes": 0,
+        "pessoas_encontradas": 0,
+        "obitos": 0
+      }
+    ],
+    "totais": {
+      "salvamentos": 0,
+      "prevencoes": 0,
+      "pessoas_encontradas": 0,
+      "agua_viva": 0,
+      "obitos": 0
+    }
+  }
+}

@@ -45,17 +45,17 @@ export default function CardResumoGeral({ data }) {
     let t = `📢 *${operacao_numero}ª OPERAÇÃO VERÃO (${ano_operacao}) — CONSOLIDADO OFICIAL*\n`;
     t += `📅 *Atendimentos em ${formatDateHeader(data_referencia)}*\n\n`;
     t += `🟢 *TOTAL DO DIA:*\n`;
-    t += `• Salvamentos: ${dia.totais.geral.salvamentos}\n`;
-    t += `• Prevenções: ${dia.totais.geral.prevencoes.toLocaleString()}\n`;
-    t += `• Pessoas Encontradas: ${dia.totais.geral.pessoas_encontradas}\n`;
-    t += `• Lesões por Água-Viva: ${dia.totais.geral.agua_viva.toLocaleString()}\n`;
-    t += `• Óbitos: ${dia.totais.geral.obitos}\n\n`;
+    t += `• Salvamentos: ${dia?.totais?.geral?.salvamentos ?? 0}\n`;
+    t += `• Prevenções: ${(dia?.totais?.geral?.prevencoes ?? 0).toLocaleString()}\n`;
+    t += `• Pessoas Encontradas: ${dia?.totais?.geral?.pessoas_encontradas ?? 0}\n`;
+    t += `• Lesões por Água-Viva: ${(dia?.totais?.geral?.agua_viva ?? 0).toLocaleString()}\n`;
+    t += `• Óbitos: ${dia?.totais?.geral?.obitos ?? 0}\n\n`;
     t += `🟠 *ACUMULADO DA OPERAÇÃO:*\n`;
-    t += `• Salvamentos: ${acumulado.totais.geral.salvamentos.toLocaleString()}\n`;
-    t += `• Prevenções: ${acumulado.totais.geral.prevencoes.toLocaleString()}\n`;
-    t += `• Pessoas Encontradas: ${acumulado.totais.geral.pessoas_encontradas.toLocaleString()}\n`;
-    t += `• Lesões por Água-Viva: ${acumulado.totais.geral.agua_viva.toLocaleString()}\n`;
-    t += `• Óbitos Totais: ${acumulado.totais.geral.obitos}\n\n`;
+    t += `• Salvamentos: ${(acumulado?.totais?.geral?.salvamentos ?? 0).toLocaleString()}\n`;
+    t += `• Prevenções: ${(acumulado?.totais?.geral?.prevencoes ?? 0).toLocaleString()}\n`;
+    t += `• Pessoas Encontradas: ${(acumulado?.totais?.geral?.pessoas_encontradas ?? 0).toLocaleString()}\n`;
+    t += `• Lesões por Água-Viva: ${(acumulado?.totais?.geral?.agua_viva ?? 0).toLocaleString()}\n`;
+    t += `• Óbitos Totais: ${acumulado?.totais?.geral?.obitos ?? 0}\n\n`;
     t += `_Corpo de Bombeiros Militar do RS (CBMRS)_`;
 
     navigator.clipboard.writeText(t);
@@ -175,41 +175,41 @@ export default function CardResumoGeral({ data }) {
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px' }}>
                   <span style={{ width: '130px', fontWeight: 'bold' }}>Litoral Norte</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px', fontWeight: 'bold' }}>
-                    <span>{dia.totais.norte.salvamentos}</span>
-                    <span>{dia.totais.norte.prevencoes}</span>
-                    <span>{dia.totais.norte.pessoas_encontradas}</span>
-                    <span>{dia.totais.norte.agua_viva}</span>
-                    <span>{dia.totais.norte.obitos}</span>
+                    <span>{dia?.totais?.norte?.salvamentos ?? 0}</span>
+                    <span>{dia?.totais?.norte?.prevencoes ?? 0}</span>
+                    <span>{dia?.totais?.norte?.pessoas_encontradas ?? 0}</span>
+                    <span>{dia?.totais?.norte?.agua_viva ?? 0}</span>
+                    <span>{dia?.totais?.norte?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px' }}>
                   <span style={{ width: '130px', fontWeight: 'bold' }}>Litoral Sul</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px', fontWeight: 'bold' }}>
-                    <span>{dia.totais.sul.salvamentos}</span>
-                    <span>{dia.totais.sul.prevencoes}</span>
-                    <span>{dia.totais.sul.pessoas_encontradas}</span>
-                    <span>{dia.totais.sul.agua_viva}</span>
-                    <span>{dia.totais.sul.obitos}</span>
+                    <span>{dia?.totais?.sul?.salvamentos ?? 0}</span>
+                    <span>{dia?.totais?.sul?.prevencoes ?? 0}</span>
+                    <span>{dia?.totais?.sul?.pessoas_encontradas ?? 0}</span>
+                    <span>{dia?.totais?.sul?.agua_viva ?? 0}</span>
+                    <span>{dia?.totais?.sul?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px' }}>
                   <span style={{ width: '130px', fontWeight: 'bold' }}>Águas Internas</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px', fontWeight: 'bold' }}>
-                    <span>{dia.totais.ai.salvamentos}</span>
-                    <span>{dia.totais.ai.prevencoes}</span>
-                    <span>{dia.totais.ai.pessoas_encontradas}</span>
+                    <span>{dia?.totais?.ai?.salvamentos ?? 0}</span>
+                    <span>{dia?.totais?.ai?.prevencoes ?? 0}</span>
+                    <span>{dia?.totais?.ai?.pessoas_encontradas ?? 0}</span>
                     <span>0</span>
-                    <span>{dia.totais.ai.obitos}</span>
+                    <span>{dia?.totais?.ai?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '3px 4px', background: 'rgba(0,0,0,0.3)', fontWeight: 900, fontSize: '11px', marginTop: '2px' }}>
                   <span style={{ width: '130px' }}>Total Dia</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px' }}>
-                    <span style={{ color: '#ffea00' }}>{dia.totais.geral.salvamentos}</span>
-                    <span>{dia.totais.geral.prevencoes}</span>
-                    <span>{dia.totais.geral.pessoas_encontradas}</span>
-                    <span>{dia.totais.geral.agua_viva}</span>
-                    <span>{dia.totais.geral.obitos}</span>
+                    <span style={{ color: '#ffea00' }}>{dia?.totais?.geral?.salvamentos ?? 0}</span>
+                    <span>{dia?.totais?.geral?.prevencoes ?? 0}</span>
+                    <span>{dia?.totais?.geral?.pessoas_encontradas ?? 0}</span>
+                    <span>{dia?.totais?.geral?.agua_viva ?? 0}</span>
+                    <span>{dia?.totais?.geral?.obitos ?? 0}</span>
                   </div>
                 </div>
               </div>
@@ -289,41 +289,41 @@ export default function CardResumoGeral({ data }) {
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px', fontWeight: 'bold' }}>
                   <span style={{ width: '130px' }}>Litoral Norte</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px' }}>
-                    <span>{acumulado.totais.norte.salvamentos}</span>
-                    <span>{acumulado.totais.norte.prevencoes}</span>
-                    <span>{acumulado.totais.norte.pessoas_encontradas}</span>
-                    <span>{acumulado.totais.norte.agua_viva}</span>
-                    <span>{acumulado.totais.norte.obitos}</span>
+                    <span>{acumulado?.totais?.norte?.salvamentos ?? 0}</span>
+                    <span>{acumulado?.totais?.norte?.prevencoes ?? 0}</span>
+                    <span>{acumulado?.totais?.norte?.pessoas_encontradas ?? 0}</span>
+                    <span>{acumulado?.totais?.norte?.agua_viva ?? 0}</span>
+                    <span>{acumulado?.totais?.norte?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px', fontWeight: 'bold' }}>
                   <span style={{ width: '130px' }}>Litoral Sul</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px' }}>
-                    <span>{acumulado.totais.sul.salvamentos}</span>
-                    <span>{acumulado.totais.sul.prevencoes}</span>
-                    <span>{acumulado.totais.sul.pessoas_encontradas}</span>
-                    <span>{acumulado.totais.sul.agua_viva}</span>
-                    <span>{acumulado.totais.sul.obitos}</span>
+                    <span>{acumulado?.totais?.sul?.salvamentos ?? 0}</span>
+                    <span>{acumulado?.totais?.sul?.prevencoes ?? 0}</span>
+                    <span>{acumulado?.totais?.sul?.pessoas_encontradas ?? 0}</span>
+                    <span>{acumulado?.totais?.sul?.agua_viva ?? 0}</span>
+                    <span>{acumulado?.totais?.sul?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '1.5px 4px', fontWeight: 'bold' }}>
                   <span style={{ width: '130px' }}>Águas Internas</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px' }}>
-                    <span>{acumulado.totais.ai.salvamentos}</span>
-                    <span>{acumulado.totais.ai.prevencoes}</span>
-                    <span>{acumulado.totais.ai.pessoas_encontradas}</span>
+                    <span>{acumulado?.totais?.ai?.salvamentos ?? 0}</span>
+                    <span>{acumulado?.totais?.ai?.prevencoes ?? 0}</span>
+                    <span>{acumulado?.totais?.ai?.pessoas_encontradas ?? 0}</span>
                     <span>0</span>
-                    <span>{acumulado.totais.ai.obitos}</span>
+                    <span>{acumulado?.totais?.ai?.obitos ?? 0}</span>
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '3px 4px', background: 'rgba(0,0,0,0.3)', fontWeight: 900, fontSize: '11px', marginTop: '2px' }}>
                   <span style={{ width: '130px' }}>Total acumul.</span>
                   <div style={{ display: 'grid', gridTemplateColumns: '70px 70px 75px 65px 45px', textAlign: 'right', gap: '4px' }}>
-                    <span style={{ color: '#ffea00' }}>{acumulado.totais.geral.salvamentos}</span>
-                    <span>{acumulado.totais.geral.prevencoes}</span>
-                    <span>{acumulado.totais.geral.pessoas_encontradas}</span>
-                    <span>{acumulado.totais.geral.agua_viva}</span>
-                    <span>{acumulado.totais.geral.obitos}</span>
+                    <span style={{ color: '#ffea00' }}>{acumulado?.totais?.geral?.salvamentos ?? 0}</span>
+                    <span>{acumulado?.totais?.geral?.prevencoes ?? 0}</span>
+                    <span>{acumulado?.totais?.geral?.pessoas_encontradas ?? 0}</span>
+                    <span>{acumulado?.totais?.geral?.agua_viva ?? 0}</span>
+                    <span>{acumulado?.totais?.geral?.obitos ?? 0}</span>
                   </div>
                 </div>
               </div>

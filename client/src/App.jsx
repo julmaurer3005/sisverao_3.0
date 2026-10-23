@@ -27,11 +27,18 @@ export default function App() {
   // Busca dados de status / operação ativa
   const loadOperacao = () => {
     fetch('/api/status')
-      .then(r => r.json())
-      .then(d => {
-        if (d.operacao) setOperacaoAtiva(d.operacao);
+      .then(async (r) => {
+        const ct = r.headers.get('content-type') || '';
+        if (!r.ok || !ct.includes('application/json')) return null;
+        return r.json();
       })
-      .catch(console.error);
+      .then(d => {
+        if (d && d.operacao) setOperacaoAtiva(d.operacao);
+        else setOperacaoAtiva({ numero_operacao: 10, nome: '10ª Operação Verão', ano_inicio: 2026, ano_fim: 2027 });
+      })
+      .catch(() => {
+        setOperacaoAtiva({ numero_operacao: 10, nome: '10ª Operação Verão', ano_inicio: 2026, ano_fim: 2027 });
+      });
   };
 
   useEffect(() => {
@@ -41,9 +48,16 @@ export default function App() {
   // Busca frase Buenas
   useEffect(() => {
     fetch('/api/buenas')
-      .then(r => r.json())
-      .then(d => setFraseBuenas(d.frase))
-      .catch(() => setFraseBuenas('Buenas e me espalho!'));
+      .then(async (r) => {
+        const ct = r.headers.get('content-type') || '';
+        if (!r.ok || !ct.includes('application/json')) return null;
+        return r.json();
+      })
+      .then(d => {
+        if (d && d.frase) setFraseBuenas(d.frase);
+        else setFraseBuenas('Buenas e me espalho! Nos braços dos gaúchos!');
+      })
+      .catch(() => setFraseBuenas('Buenas e me espalho! Nos braços dos gaúchos!'));
   }, []);
 
   const handleDataSaved = () => {
