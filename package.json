@@ -1,0 +1,22 @@
+{
+  "name": "sisverao",
+  "version": "1.0.0",
+  "description": "SISVERÃO - Gestão e Inteligência de Salvamentos (CBMRS)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node --watch server/src/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "node server/src/db/seed.js",
+    "install:all": "npm install && npm --prefix client install",
+    "build": "npm --prefix client run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
