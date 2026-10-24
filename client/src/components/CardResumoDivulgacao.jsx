@@ -391,7 +391,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '32px',
+              top: '20px',
               left: '316px',
               width: '436px',
               height: '64px',
@@ -413,7 +413,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '578px',
+              top: '575px',
               left: '460px',
               width: '156px',
               height: '50px',
@@ -434,7 +434,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '685px',
+              top: '665px',
               left: '160px',
               width: '194px',
               height: '70px',
@@ -456,7 +456,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '802px',
+              top: '795px',
               left: '410px',
               width: '256px',
               height: '62px',
@@ -478,7 +478,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '668px',
+              top: '670px',
               left: '730px',
               width: '232px',
               height: '70px',
@@ -501,7 +501,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '928px',
+              top: '932px',
               left: '190px',
               width: '98px',
               height: '46px',
@@ -521,7 +521,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1074px',
+              top: '1061px',
               left: '320px',
               width: '46px',
               height: '32px',
@@ -541,7 +541,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1116px',
+              top: '1111px',
               left: '320px',
               width: '46px',
               height: '32px',
@@ -563,7 +563,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '922px',
+              top: '932px',
               left: '800px',
               width: '76px',
               height: '48px',
@@ -583,7 +583,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1074px',
+              top: '1061px',
               left: '920px',
               width: '46px',
               height: '32px',
@@ -603,7 +603,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1116px',
+              top: '1111px',
               left: '920px',
               width: '46px',
               height: '32px',
@@ -625,8 +625,8 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1302px',
-              left: '550px',
+              top: '1290px',
+              left: '540px',
               width: '160px',
               height: '58px',
               display: 'flex',
@@ -645,8 +645,8 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1366px',
-              left: '550px',
+              top: '1357px',
+              left: '540px',
               width: '160px',
               height: '60px',
               display: 'flex',
@@ -665,8 +665,8 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1442px',
-              left: '550px',
+              top: '1425px',
+              left: '540px',
               width: '160px',
               height: '60px',
               display: 'flex',
