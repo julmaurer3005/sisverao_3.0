@@ -391,7 +391,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '20px',
+              top: '25px',
               left: '316px',
               width: '436px',
               height: '64px',
@@ -413,7 +413,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '575px',
+              top: '615px',
               left: '460px',
               width: '156px',
               height: '50px',
@@ -434,7 +434,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '665px',
+              top: '715px',
               left: '160px',
               width: '194px',
               height: '70px',
@@ -456,7 +456,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '795px',
+              top: '855px',
               left: '410px',
               width: '256px',
               height: '62px',
@@ -478,7 +478,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '670px',
+              top: '718px',
               left: '730px',
               width: '232px',
               height: '70px',
@@ -501,7 +501,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '932px',
+              top: '999px',
               left: '190px',
               width: '98px',
               height: '46px',
@@ -521,7 +521,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1061px',
+              top: '1135px',
               left: '320px',
               width: '46px',
               height: '32px',
@@ -541,7 +541,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1111px',
+              top: '1188px',
               left: '320px',
               width: '46px',
               height: '32px',
@@ -563,7 +563,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '932px',
+              top: '998px',
               left: '800px',
               width: '76px',
               height: '48px',
@@ -583,7 +583,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1061px',
+              top: '1135px',
               left: '920px',
               width: '46px',
               height: '32px',
@@ -603,7 +603,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1111px',
+              top: '1188px',
               left: '920px',
               width: '46px',
               height: '32px',
@@ -625,7 +625,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1290px',
+              top: '1380px',
               left: '540px',
               width: '160px',
               height: '58px',
@@ -645,7 +645,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1357px',
+              top: '1448px',
               left: '540px',
               width: '160px',
               height: '60px',
@@ -665,7 +665,7 @@ export default function CardResumoDivulgacao({ data }) {
           <div
             style={{
               position: 'absolute',
-              top: '1425px',
+              top: '1518px',
               left: '540px',
               width: '160px',
               height: '60px',
